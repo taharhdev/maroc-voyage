@@ -1,0 +1,59 @@
+<html>
+<head>
+        
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-widthn initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/sejstyle.css">
+    <title>Maroc voyage</title>  
+    
+</head>
+
+<body>
+    <section class ="header">
+        <div class="container">
+                <button type="button" class="login-btn">Login</button>
+                <a class="logo" href="index.html"><img src="img/img_logo/logo.png" alt="logo"></a>
+                <nav>
+                    <ul class="nav__links">
+                        <li><a href="Vols.html">Clients</a></li>
+                        <li><a href="station.html">Stations</a></li>
+                        <li><a href="sejour.html">Séjours</a></li>                        
+                        <li><a href="activite.html">Activités</a></li>
+                        <li><a href="depenses.html">Dépenses</a></li>
+                    </ul>
+                </nav>         
+        </div>
+    </section>
+    <form name="insert" action="sejour.html" method="POST" >
+        <div class="booking-form-box">
+
+            <div class="booking-form">
+            
+                <label>ID Séjour :</label>
+                <input type="number" name="id_sejour" class="form-control" placeholder="ID Sejour">
+                        
+                <label>Départ le :</label>
+                <input type="date" name="debut" class="form-control select-date">        
+                
+                <label>Nombre des places :</label>
+                <input type="number" name="nbplaces" class="form-control" placeholder="Nombre des places">  
+
+                <label>ID Client :</label>
+                <input type="number" name="id_cli_sej" class="form-control" placeholder="ID Client">
+
+                <label>ID Station :</label>
+                <input type="number" name="id_sta_sej" class="form-control" placeholder="ID Station">    
+                
+                <div class="input-grp">
+                    <button type="submit" name="chercher" class="btn btn-primary flight">Rechercher</button>
+                </div>
+
+            </div>        
+        </div>
+    </form>
+
+    
+</body>
+</html>

@@ -1,0 +1,268 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.header
+{
+    height: 100%;
+    background-image: linear-gradient(rgba(5,5,5,0.6),rgba(92, 78, 78, 0.6)),url(banner.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+}
+.header img
+{
+    width: 120px;
+    height: 120px;
+    float: left;
+    cursor: pointer;
+}
+
+.nav__links a,
+.nav__links {
+    list-style: none;
+    display: flex;
+    padding-left: 80px;
+    color: #ffffff;
+    font-size: large;
+   
+}
+  
+.nav__links li {
+    padding: 60px 5px ;
+}
+  
+.nav__links li a {
+    transition: color 0.3s ease 0s;
+}
+  
+.nav__links li a:hover {
+    color: #012326;
+}
+  
+.login-btn
+{
+    width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border-radius: 50px;
+    background: transparent;
+    color: white;
+    float: right;
+}
+
+.header h1
+{
+    padding-top: 130px;
+    padding-bottom: 0;
+    font-size: 55px;
+}
+.header p
+{
+    margin: 18px 0;
+}
+.booking-form-box
+{
+    max-width: 354px;
+    border: 1px solid #ced4da;
+    margin: 5% auto 0;
+}
+.radio-btn
+{
+    margin: 0 20px;
+}
+.radio-btn .btn
+{
+    margin: 20px 10px 20px 0;
+    box-shadow: none;
+}
+.radio-btn .btn::after
+{
+    content: '';
+    height: 15px;
+    width: 15px;
+    top: -2px;
+    left: -1px;
+    background-color: #ffffff;
+    position: relative;
+    display: inline-block;
+    border: 3px solid #ffffff;
+    visibility: visible;
+    border-radius: 50%;
+}
+.radio-btn .btn:checked::after
+{
+    content: ;
+    background-color: #000000;
+    transition: 0.5s;
+}
+.radio-btn span
+{
+    color: #ffffff;
+    margin-right: 5px;
+    font-size: 12px;
+}
+.booking-form
+{
+    padding: 0 20px 20px;    
+}
+.booking-form label
+{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #ffffff;
+}
+input::placeholder
+{
+    color:#ffffff !important;
+}
+.input-grp
+{
+    width: 151px;
+    display: inline-block;
+}
+.form-control
+{
+    font-size: 12px !important;
+    border-radius: 0 !important;
+    color: #ffffff !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.select-date::-webkit-inner-spin-button,
+.select-date::-webkit-outer-spin-button
+{
+    -webkit-appearance: none;
+    margin: 0;
+
+}
+.select-date::-webkit-calender-picker-indicator
+{
+    background: transparent !important;
+}
+.custom-select
+{
+    color: #ffffff !important;
+    font-size: 12px !important;
+    border: 1px solid #ced4da !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    background: transparent  !important;
+}
+.custom-select option 
+{
+    color: #333333
+}
+.flight
+{
+    width: 100% !important;
+    padding: 9px 0 !important;
+    font-size: 12px !important;
+    border: 1px solid #ced4da !important;
+    background: transparent  !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+}
+.flight:hover
+{
+    background: #ffffff !important;
+    color: #000000 !important;
+    transition: 0.5s;
+}
+.features
+{
+    padding: 100px 0;
+
+}
+h1
+{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.p
+{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.feature-img img
+{
+    width: 100%;
+}
+.price
+{
+    width: 70px;
+    height: 50px;
+    background:#69B7BF;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    position: absolute;
+    left: 20px;
+    bottom: -25px;
+    font-size: 12px;
+    text-align: center;
+}
+.feature-img
+{
+    position: relative;
+}
+.rating
+{
+    padding: 3px;
+    float: right;
+    background: #ffffff;
+    bottom: -1px;
+    right: 0;
+    position: absolute;
+}
+.features .fa
+{
+    font-size: 15px;
+    color: #ff5722;
+
+}
+.feature-details
+{
+    padding: 20px;
+    text-align: justify;
+}
+.feature-details h4
+{
+    font-weight: 600;
+    margin-top:20px;
+
+}
+.feature-details .fa
+{
+    margin-right: 5px;
+}
+.feature-box
+{
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    margin-bottom: 30px;
+}
+table{
+
+    border-collapse: collapse;
+    width:500px;
+    color: #588c7e;
+    font-family: monospace;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 500px; 
+
+}
+th{
+    background-color: #588c7e;
+    color: #ffffff;
+}
+tr {
+    color: #ffffff;
+}
